@@ -311,6 +311,7 @@ Each JEP should have the following parts:
   The rationale should provide evidence of consensus within the
   community and discuss important objections or concerns raised
   during discussion.
+
 . **Backwards Compatibility** - All JEPs that introduce backwards
   incompatibilities must include a section describing these
   incompatibilities and their severity. The JEP must explain how the
@@ -324,9 +325,10 @@ Each JEP should have the following parts:
   rationale before writing code, the principle of "rough consensus
   and running code" is still useful when it comes to resolving many
   discussions of API details.
-+
-  The final implementation must include test code and documentation
-  appropriate for either the Jenkins user or developer documentation.
+
+
+The final implementation must include test code and documentation
+appropriate for either the Jenkins user or developer documentation.
 
 
 === JEP Formats and Templates
