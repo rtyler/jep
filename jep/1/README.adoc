@@ -36,14 +36,14 @@ endif::[]
 == What is a JEP?
 
 JEP stands for Jenkins Enhancement Proposal. A JEP is a design
-document providing information to the Python community, or describing
+document providing information to the Jenkins community, or describing
 a new feature for Jenkins or its processes or environment. The JEP
 should provide a concise technical specification of the feature and a
 rationale for the feature.
 
 We intend JEPs to be the primary mechanisms for proposing major new
 features, for collecting community input on an issue, and for
-documenting the design decisions that have gone into Python. The JEP
+documenting the design decisions that have gone into Jenkins. The JEP
 author is responsible for building consensus within the community and
 documenting dissenting opinions.
 
@@ -163,7 +163,7 @@ pull request into a branch with the numbered proposal.
 The JEP editors will not unreasonably deny a JEP. Reasons for denying JEP
 status include duplication of effort, being technically unsound, not providing
 proper motivation or addressing backwards compatibility, or not in keeping
-with the Python philosophy. The BDFL can be consulted during the approval
+with the Jenkins philosophy. The BDFL can be consulted during the approval
 phase, and is the final arbiter of the draft's JEP-ability.
 
 Developers with git push privileges for the JEP repository footnoteref:[repo]
@@ -308,9 +308,9 @@ Each JEP should have the following parts:
   were considered and related work, e.g. how the feature is supported
   in other languages.
 +
-  The rationale should provide evidence of consensus within the
-  community and discuss important objections or concerns raised
-  during discussion.
+The rationale should provide evidence of consensus within the
+community and discuss important objections or concerns raised
+during discussion.
 
 . **Backwards Compatibility** - All JEPs that introduce backwards
   incompatibilities must include a section describing these
@@ -409,14 +409,15 @@ the directory with the `README.adoc` describing the JEP.
 
 === Reporting JEP Bugs, or Submitting JEP Updates
 
-How you report a bug, or submit a JEP update depends on several
-factors, such as the maturity of the JEP, the preferences of the JEP
-author, and the nature of your comments. For the early draft stages
-of the JEP, it's probably best to send your comments and changes
-directly to the JEP author. For more mature, or finished JEPs you may
-want to submit corrections to the Python `issue tracker`_ so that your
-changes don't get lost. If the JEP author is a Jenkins developer, assign the
-bug/patch to them, otherwise assign it to a JEP editor.
+How you report a bug, or submit a JEP update depends on several factors, such
+as the maturity of the JEP, the preferences of the JEP author, and the nature
+of your comments. For the early draft stages of the JEP, it's probably best to
+send your comments and changes directly to the JEP author. For more mature, or
+finished JEPs you may want to submit corrections to the JEP repository
+footnoteref:[repo] or the Jenkins issue tracker
+footnoteref:[issues,https://issues.jenkins-ci.org].  If the JEP author is a
+Jenkins developer, assign the bug/patch to them, otherwise assign it to a JEP
+editor.
 
 When in doubt about where to send your changes, please check first
 with the JEP author and/or a JEP editor.
